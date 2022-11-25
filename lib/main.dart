@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:justnotes/constants/routes.dart';
 import 'package:justnotes/services/auth/auth_service.dart';
 import 'package:justnotes/views/login_view.dart';
-import 'package:justnotes/views/notes/new_note_view.dart';
+import 'package:justnotes/views/notes/create_update_note_view.dart';
 import 'package:justnotes/views/notes/notes_view.dart';
 import 'package:justnotes/views/register_view.dart';
 import 'package:justnotes/views/verify_email_view.dart';
@@ -20,7 +20,7 @@ void main() {
       registerRoute: (context) => const RegisterView(),
       notesRoute: (context) => const NotesView(),
       verifyEmailRoute: (context) => const VerifyEmailView(),
-      newNoteRoute: (context) => const NewNoteView(),
+      createOrUpdateNoteRoute: (context) => const CreateUpdateNote(),
     },
   ));
 }
