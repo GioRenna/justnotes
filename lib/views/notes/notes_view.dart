@@ -9,8 +9,8 @@ import 'package:justnotes/views/notes/notes_list_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart' show ReadContext;
 import 'package:bloc/bloc.dart';
 
-import '../../constants/routes.dart';
-import '../../enums/menu_action.dart';
+import 'package:justnotes/constants/routes.dart';
+import 'package:justnotes/enums/menu_action.dart';
 
 class NotesView extends StatefulWidget {
   const NotesView({super.key});
