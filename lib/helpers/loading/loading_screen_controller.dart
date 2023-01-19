@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 typedef CloseLoadingScreen = bool Function();
 typedef UpdateLoadingScreen = bool Function(String text);

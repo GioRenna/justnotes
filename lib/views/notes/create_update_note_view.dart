@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:justnotes/services/auth/auth_service.dart';
 import 'package:justnotes/services/cloud/cloud_note.dart';
-import 'package:justnotes/services/cloud/cloud_storage_exceptions.dart';
 import 'package:justnotes/services/cloud/firebase_cloud_storage.dart';
 import 'package:justnotes/utilities/dialogs/cannot_share_empty_note.dart';
 import 'package:justnotes/utilities/dialogs/generics/get_arguments.dart';

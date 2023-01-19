@@ -6,7 +6,6 @@ import 'package:justnotes/services/auth/bloc/auth_bloc.dart';
 import 'package:justnotes/services/auth/bloc/auth_event.dart';
 import 'package:justnotes/services/auth/bloc/auth_state.dart';
 import 'package:justnotes/services/auth/firebase_auth_provider.dart';
-import 'package:justnotes/services/cloud/cloud_storage_constants.dart';
 import 'package:justnotes/views/forgot_password_view.dart';
 import 'package:justnotes/views/login_view.dart';
 import 'package:justnotes/views/notes/create_update_note_view.dart';

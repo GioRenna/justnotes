@@ -7,7 +7,6 @@ import 'package:justnotes/services/cloud/firebase_cloud_storage.dart';
 import 'package:justnotes/utilities/dialogs/logout_dialog.dart';
 import 'package:justnotes/views/notes/notes_list_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart' show ReadContext;
-import 'package:bloc/bloc.dart';
 
 import 'package:justnotes/constants/routes.dart';
 import 'package:justnotes/enums/menu_action.dart';

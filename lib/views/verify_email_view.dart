@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:justnotes/constants/routes.dart';
-import 'package:justnotes/services/auth/auth_service.dart';
 import 'package:justnotes/services/auth/bloc/auth_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:justnotes/services/auth/bloc/auth_event.dart';
